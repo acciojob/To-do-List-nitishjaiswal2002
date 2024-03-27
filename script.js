@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Additional feature: Replace input value with empty string after clicking todo item
     todoList.addEventListener("click", function (event) {
-        if (event.target.tagName === "LI") {
+        if (event.target.tagName === "lI") {
             newTodoInput.value = ""; // Clear input value
         }
     });
